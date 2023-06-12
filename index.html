@@ -1,7 +1,108 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<script src="myScript.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+	<nav>
+		<div class="topnav">
+			<div>
+				<div class="logo"><a href="homepage.html"><img src="logo.png" width="110" height="100" alt="logo" /></a></div>
+				<div class="icons"><a href="#socials"><img src="icons.png" width="110" height ="100" alt="icons" /></a></div>
+			<div>
+			<div>
+		  		<a class="active" href="homepage.html">Hair Haven</a>
+		  	</div>
+		  
+		  <!-- navbar-->
+		  <div class="topnav-right">
+		    <a href="services.html">Services</a>
+		    <a href="ourteam.html">Our Team</a>
+		    <a href="aboutus.html">About Us</a>
+		    <a href="location.html">Location</a>
+		    <a href="bookappointment.html">Book Appointment</a>
+
+		  </div>
+
+		</div>
+	</nav>
+
+</head>
+
+
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+	<title>Homepage</title>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	
+
+	<!-- hair pics-->
+	<div class="hairpics"><img src="hairpics.png" width="1300" height="700"/></div>
+
+
+	<!-- services-->
+
+	<h1>Services</h1>
+	<div class="row">
+	  <div class="column">
+	    <img src="haircut.png" alt="haircut" style="width:100%">
+	  </div>
+	  <div class="column">
+	    <img src="hairtreatment.png" alt="hairtreatment" style="width:102%">
+	  </div>
+	  <div class="column">
+	    <img src="haircolour.png" alt="haircolour" style="width:106%">
+	  </div>
+	</div>
+
+	<div class ="row">
+		<div class ="column"><label>Haircut</label></div>
+		<div class ="column"><label>Hair Treatment</label></div>
+		<div class ="column"><label>Hair Colour</label></div>
+	</div>
+
+
+
+	<!-- services-->
+	<h1>Our Team</h1>
+
+	<div class="row">
+		<div class="column"><img src="harper.png" style="width:90%"></div>
+		<div class="column"><img src="jackson.png" style="width:90%"></div>
+		<div class="column"><img src="evelyn.png" style="width:90%"></div>
+	</div>
+
+	<div style="float: center;"> <button class="green"><a href="ourteam.html">Learn More</a></button></div>
+
+	<!-- about us-->
+
+	<div class="about">
+		<div class="aboutusbutton"><a href="aboutus.html">About Us</a></div>
+	</div>
+	
+
+	<!-- Location -->
+	<h1>Location</h1>
+	<table style="float:left;padding-left: 50px;">
+		<tr><td><img src="map.png" width="700px"></td></tr>
+		<tr><td><p>456 Rosewood Avenue, Maple Heights, Cascadeville, ON L4X 9Z7, Canada</p></td></tr>
+
+	</table>
+
+	<table style="float: right;padding-right: 250px;">
+		<tr><td><span class="big">Contact Info</span></td></tr>
+		<tr><td><span class="medium">Phone:</span><span class="small"> (555) 123-4567</span></td></tr>
+		<tr><td><span class="medium">Email:</span><span class="small"> hairhaven@gmail.com</span></td></tr>
+		<tr><td><span class="medium">Opening Hours</span></td></tr>
+		<tr><td><span class="small">Monday-Friday: 9:00 AM - 6:00 PM</span></td></tr>
+		<tr><td><span class="small">Saturday-Sunday: 11:00 PM - 3:00 PM</span></td></tr>
+		<tr><td style ="padding-left: 150px;padding-top: 30px;"><button class="green"><a href="bookappointment.html">Book Appointment</a></button></td></tr>
+	</table>
+
 </body>
 </html>
