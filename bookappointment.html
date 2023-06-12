@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="myScript.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+	<nav>
+		<div class="topnav">
+			<div>
+				<div class="logo"><a href="homepage.html"><img src="logo.png" width="110" height="100" alt="logo" /></a></div>
+				<div class="icons"><a href="#socials"><img src="icons.png" width="110" height ="100" alt="icons" /></a></div>
+			<div>
+			<div>
+		  		<a class="active" href="homepage.html">Hair Haven</a>
+		  	</div>
+		  
+		  <!-- navbar-->
+		  <div class="topnav-right">
+		    <a href="services.html">Services</a>
+		    <a href="ourteam.html">Our Team</a>
+		    <a href="aboutus.html">About Us</a>
+		    <a href="location.html">Location</a>
+		    <a href="bookappointment.html">Book Appointment</a>
+
+		  </div>
+
+		</div>
+	</nav>
+
+</head>
+
+
+
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	<title>Book Appointment</title>
+	<h1>Book Appointment</h1>
+
+	<div class="dropdown">
+	  <button onclick="dropDate()" class="dropbtn">DATE</button>
+	  <div id="dateDropdown" class="dropdown-content">
+	    <a href="#">Monday</a>
+	    <a href="#">Tuesday</a>
+	    <a href="#">Wednesday</a>
+	    <a href="#">Thursday</a>
+	    <a href="#">Friday</a>
+	  </div>
+	</div>
+
+	<div class="dropdown">
+	  <button onclick="dropTime()" class="dropbtn">TIME</button>
+	  <div id="timeDropdown" class="dropdown-content">
+	    <a href="#">9:00AM-11:00AM</a>
+	    <a href="#">11:00AM-1:00PM</a>
+	    <a href="#">1:30PM-2:00PM</a>
+	    <a href="#">2:00PM-4:00PM</a>
+	    <a href="#">4:00PM-6:00PM</a>
+	  </div>
+	</div>
+
+	<div class="dropdown">
+	  <button onclick="dropService()" class="dropbtn">SERVICE</button>
+	  <div id="serviceDropdown" class="dropdown-content">
+	    <a href="#">Short Hair Cut</a>
+	    <a href="#">Bowl Cut</a>
+	    <a href="#">Bang Cut or Trim</a>
+	    <a href="#">Long Hair + Blowout</a>
+	    <a href="#">Buzz Cut</a>
+	    <a href="#">Undercut Shave</a>
+	    <a href="#">Kids Cut Short</a>
+	    <a href="#">Kids Cut Long</a>
+	    <a href="#">Facial Hair</a>
+	    <a href="#">Olaplex Treatment</a>
+	    <a href="#">K-18 Treatment</a>
+	    <a href="#">Keratin Treatment</a>
+	    <a href="#">Hair Colouring</a>
+	    <a href="#">Hair Bleaching</a>
+
+	  </div>
+	</div>
+	<div class="dropdown">
+	  <button onclick="dropExpert()" class="dropbtn">EXPERT</button>
+	  <div id="expertDropdown" class="dropdown-content">
+	    <a href="#">Evelyn Sinclair</a>
+	    <a href="#">Jackson Mercer</a>
+	    <a href="#">Harper Prescott</a>
+	  </div>
+	</div>
+
+	<form style="float: right;padding-right: 400px;">
+	  <label for="fname">Enter Name:</label><br>
+	  <input type="text" id="fname" name="fname" value=""><br>
+	  <label for="lname">Enter Email:</label><br>
+	  <input type="text" id="lname" name="lname" value="">
+	</form>
+
+	<button onclick="submit()" style="float: right;">Submit Booking</button>
+
+
+ 
+</body>
+</html>
